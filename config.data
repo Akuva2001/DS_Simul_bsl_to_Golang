@@ -1,0 +1,6 @@
+processes 0 5
+bidirectional true
+link from all to all
+setprocesses 0 5 BULLY
+send from -1 to 1 Bully_Election
+launch timer 1
